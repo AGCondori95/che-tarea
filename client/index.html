@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Viewport para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta tags para SEO -->
+    <meta
+      name="description"
+      content="Che Tarea - Gestiona tus tareas de forma simple y efectiva. Organiza tu equipo y aumenta la productividad." />
+    <meta
+      name="keywords"
+      content="tareas, kanban, gestion de proyectos, productividad, equipo" />
+    <meta name="author" content="Alvaro Condorí" />
+
+    <!-- Theme color para navegadores móviles -->
+    <meta name="theme-color" content="#2563eb" />
+
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Che Tarea - Gestor de Tareas" />
+    <meta
+      property="og:description"
+      content="Gestiona tus tareas de forma simple y efectiva" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Che Tarea - Gestor de Tareas" />
+    <meta
+      name="twitter:description"
+      content="Gestiona tus tareas de forma simple y efectiva" />
+
+    <!-- Preconnect para mejorar performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Title -->
+    <title>Che Tarea - Gestor de Tareas</title>
+
+    <!-- Prevenir FOUC (Flash of Unstyled Content) -->
+    <style>
+      #root {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Loading spinner inicial */
+      .app-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+      }
+
+      .app-loading-spinner {
+        width: 48px;
+        height: 48px;
+        border: 4px solid #e5e7eb;
+        border-top-color: #2563eb;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="app-loading">
+        <div class="app-loading-spinner"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
