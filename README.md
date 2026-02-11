@@ -1,41 +1,75 @@
-# 🚀 Che Tarea - Task Manager (MERN Stack)
+# ✅ Che Tarea - MERN Stack Task Manager
 
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://che-tarea.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://che-tarea.vercel.app/login)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
-**Che Tarea** es una aplicación de gestión de tareas diseñada para ofrecer una experiencia de usuario fluida y minimalista. Este proyecto demuestra mis habilidades integrando el stack MERN (MongoDB, Express, React, Node.js) con un enfoque en la eficiencia y el diseño limpio.
-
----
-
-## 🛠️ Stack Tecnológico
-
-- **Frontend:** React.js con Vite.
-- **Estilos:** Tailwind CSS (Arquitectura Mobile-First).
-- **Backend:** Node.js & Express.
-- **Base de Datos:** MongoDB (Mongoose).
-- **Autenticación:** JWT.
-- **Validación de Datos:** Joi.
-- **Iconos:** React Icons.
+**Che Tarea** no es solo una lista de tareas; es una aplicación **Fullstack** completa que integra una arquitectura profesional para la gestión de productividad personal. Desarrollada con el stack MERN, ofrece una interfaz intuitiva y un sistema de autenticación sólido.
 
 ---
 
-## ✨ Características Principales
+## 🎯 Objetivo del Proyecto
 
-- **Autenticación de Usuario:** Registro e inicio de sesión seguro.
-- **Operaciones CRUD:** Crear, leer, actualizar y eliminar tareas en tiempo real.
-- **Diseño Responsivo:** Optimizado para dispositivos móviles y escritorio.
-- **Persistencia de Datos:** Almacenamiento seguro en la nube con MongoDB Atlas.
-- **UI Dinámica:** Feedback visual instantáneo para una mejor experiencia de usuario.
+Demostrar la capacidad de construir una **Single Page Application (SPA)** conectada a una **API RESTful** propia, manejando operaciones asíncronas, seguridad en rutas y persistencia de datos en la nube.
 
 ---
 
-## 🚀 Instalación y Uso
+## 🚀 Funcionalidades Clave
 
-Si deseas ejecutar este proyecto localmente, sigue estos pasos:
+- **Autenticación Segura:** Sistema de Login y Registro para proteger la información del usuario.
+- **Gestión CRUD Completa:** Los usuarios pueden Crear, Leer, Editar y Eliminar sus tareas de forma persistente.
+- **Filtros de Estado:** Organización de tareas pendientes y completadas.
+- **Diseño UI/UX Moderno:** Desarrollado con Tailwind CSS para garantizar una experiencia fluida tanto en desktop como en mobile.
+- **API Propia:** Consumo de servicios mediante una arquitectura de backend escalable.
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/AGCondori95/che-tarea.git](https://github.com/AGCondori95/che-tarea.git)
-   cd che-tarea
-   ```
+---
+
+## 🛠️ Stack Técnico
+
+| Capa              | Tecnología                   |
+| :---------------- | :--------------------------- |
+| **Frontend**      | React (Vite) + Tailwind CSS  |
+| **Backend**       | Node.js + Express.js         |
+| **Base de Datos** | MongoDB Atlas (Cloud)        |
+| **Herramientas**  | Axios, React Router Dom, JWT |
+
+---
+
+## 💻 Instalación Local
+
+1.  **Clonar:**
+    ```bash
+    git clone [https://github.com/AGCondori95/che-tarea.git](https://github.com/AGCondori95/che-tarea.git)
+    ```
+2.  **Frontend:**
+    ```bash
+    cd client && npm install && npm run dev
+    ```
+3.  **Backend:**
+    ```bash
+    cd server && npm install && npm start
+    ```
+    _(Requiere configurar `.env` con `MONGO_URI` y `JWT_SECRET`)_
+
+---
+
+## 🧠 Desafíos Superados
+
+- **Sincronización de Estado:** Implementación de lógica para que el UI se actualice inmediatamente después de una petición al servidor (Optimistic Updates).
+- **Seguridad:** Implementación de Middlewares en el backend para validar sesiones antes de permitir el acceso a los datos.
+- **Manejo de Errores:** Validación de formularios en el cliente y respuestas de error controladas desde el servidor.
+
+---
+
+## 👤 Autor
+
+**Alvaro Condorí**
+
+- **LinkedIn:** [linkedin.com/in/condorialvaro](https://www.linkedin.com/in/condorialvaro/)
+- **GitHub:** [@ACondori95](https://github.com/ACondori95)
+
+---
+
+_Si te gusta este proyecto, considera darle una ⭐ al repositorio._
