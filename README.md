@@ -1,75 +1,74 @@
 # ✅ Che Tarea - MERN Stack Task Manager
 
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://che-tarea.vercel.app/login)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-
-**Che Tarea** no es solo una lista de tareas; es una aplicación **Fullstack** completa que integra una arquitectura profesional para la gestión de productividad personal. Desarrollada con el stack MERN, ofrece una interfaz intuitiva y un sistema de autenticación sólido.
+**Che Tarea** is more than just a task list; it is a complete Fullstack application integrating professional architecture for personal productivity management. Built with the **MERN stack**, it offers an intuitive interface and a robust authentication system.
 
 ---
 
-## 🎯 Objetivo del Proyecto
-
-Demostrar la capacidad de construir una **Single Page Application (SPA)** conectada a una **API RESTful** propia, manejando operaciones asíncronas, seguridad en rutas y persistencia de datos en la nube.
-
----
-
-## 🚀 Funcionalidades Clave
-
-- **Autenticación Segura:** Sistema de Login y Registro para proteger la información del usuario.
-- **Gestión CRUD Completa:** Los usuarios pueden Crear, Leer, Editar y Eliminar sus tareas de forma persistente.
-- **Filtros de Estado:** Organización de tareas pendientes y completadas.
-- **Diseño UI/UX Moderno:** Desarrollado con Tailwind CSS para garantizar una experiencia fluida tanto en desktop como en mobile.
-- **API Propia:** Consumo de servicios mediante una arquitectura de backend escalable.
+## 🎯 Project Objective
+Demonstrate the capability to build a Single Page Application (SPA) connected to a custom RESTful API, managing asynchronous operations, route security, and cloud data persistence.
 
 ---
 
-## 🛠️ Stack Técnico
-
-| Capa              | Tecnología                   |
-| :---------------- | :--------------------------- |
-| **Frontend**      | React (Vite) + Tailwind CSS  |
-| **Backend**       | Node.js + Express.js         |
-| **Base de Datos** | MongoDB Atlas (Cloud)        |
-| **Herramientas**  | Axios, React Router Dom, JWT |
+## 🚀 Key Features
+* **Secure Authentication:** Login and Registration system to protect user information.
+* **Full CRUD Management:** Users can Create, Read, Update, and Delete their tasks with persistence.
+* **Status Filters:** Organization of pending and completed tasks.
+* **Modern UI/UX Design:** Developed with Tailwind CSS to ensure a fluid experience on both desktop and mobile.
+* **Custom API:** Service consumption through a scalable backend architecture.
 
 ---
 
-## 💻 Instalación Local
+## 🛠️ Technical Stack
 
-1.  **Clonar:**
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React (Vite) + Tailwind CSS |
+| **Backend** | Node.js + Express.js |
+| **Database** | MongoDB Atlas (Cloud) |
+| **Tools** | Axios, React Router Dom, JWT |
+
+---
+
+## 💻 Local Installation
+
+1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/AGCondori95/che-tarea.git](https://github.com/AGCondori95/che-tarea.git)
     ```
-2.  **Frontend:**
+
+2.  **Setup Frontend:**
     ```bash
-    cd client && npm install && npm run dev
+    cd client
+    npm install
+    npm run dev
     ```
-3.  **Backend:**
+
+3.  **Setup Backend:**
     ```bash
-    cd server && npm install && npm start
+    cd server
+    npm install
+    npm start
     ```
-    _(Requiere configurar `.env` con `MONGO_URI` y `JWT_SECRET`)_
+    > **Note:** Requires configuring a `.env` file with `MONGO_URI` and `JWT_SECRET`.
 
 ---
 
-## 🧠 Desafíos Superados
+## 🧠 Overcome Challenges
 
-- **Sincronización de Estado:** Implementación de lógica para que el UI se actualice inmediatamente después de una petición al servidor (Optimistic Updates).
-- **Seguridad:** Implementación de Middlewares en el backend para validar sesiones antes de permitir el acceso a los datos.
-- **Manejo de Errores:** Validación de formularios en el cliente y respuestas de error controladas desde el servidor.
+* **State Synchronization:** Implementation of logic to update the UI immediately after a server request (Optimistic Updates).
+* **Security:** Backend Middleware implementation to validate sessions before allowing data access.
+* **Error Handling:** Client-side form validation and controlled error responses from the server.
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
 **Alvaro Condorí**
+* **LinkedIn:** [linkedin.com/in/condorialvaro](https://linkedin.com/in/condorialvaro)
+* **GitHub:** [@ACondori95](https://github.com/ACondori95)
 
-- **LinkedIn:** [linkedin.com/in/condorialvaro](https://www.linkedin.com/in/condorialvaro/)
-- **GitHub:** [@ACondori95](https://github.com/ACondori95)
+If you like this project, please consider giving the repository a ⭐.
+   cd ../server
+   npm install
+   npm start
 
----
-
-_Si te gusta este proyecto, considera darle una ⭐ al repositorio._
